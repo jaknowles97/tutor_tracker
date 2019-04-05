@@ -24,7 +24,4 @@
 6. Should the check boxes on the SessionEnd modal actually do something?? Like, disable the end button until they're checked?
 7. Find a way to mark a session as completed and hide it from today's sessions?
 
-**BUGS**
-
-1. sheet update on active session page not working
-2. auto rescheduling it producing duplicates
+**KNOWN BUGS**

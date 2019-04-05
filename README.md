@@ -15,7 +15,7 @@ after a Calendly events.
 
 ---
 
-This guide will assume that you have your own Tutor Tracking app deployed through Heroku and use of the Heroku CLI - a detailed deployment guide can be found [here](https://devcenter.heroku.com/articles/git).
+This guide will assume that you have forked a copy of Tutor Tracker and will deploy it through Heroku. You'll also need the Heroku CLI - a detailed deployment guide can be found [here](https://devcenter.heroku.com/articles/git).
 
 You'll notice that this repository includes a env.text as a template for setting up your own .env file for local development. All of the environmental variable found in env.text will also have to be added to Heroku either via the dashboard or Heroku's CLI. More details on how to add and update variables on Heroku can be found [here](https://devcenter.heroku.com/articles/config-vars#managing-config-vars).
 
@@ -115,3 +115,10 @@ Heroku will have to be configured to use their 'hobby' dyno (7/month). The upgra
 ### **Code updates**
 
 ---
+
+..thought I could link directly to the file, but it doesn't seem to be working ¯\\\_(ツ)\_/¯
+
+1. Line 12 of components/TutorForm.js to include your name
+2. Lines 10-33 of components/DataTable can be updated to customize the columns rendered to the table
+3. All of the email templates in /emails should be updated to include your name - feel free to customize the messages. The congrats e-mail can be updated to include your linkedin url if you'd like
+4. Lines 24 & 27 of services/mailer.js to include your email address

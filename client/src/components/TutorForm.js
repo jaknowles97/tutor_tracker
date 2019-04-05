@@ -9,7 +9,7 @@ const TutorForm = props => {
   const name = `&entry.1262798942=${props.name}`;
   const email = `&entry.1509111758=${props.email}`;
   const github = `&entry.2097580399=${props.github}`;
-  const tutorName = "&entry.737967299=Doherty, Michael"; //enter your name here
+  const tutorName = "&entry.737967299=<your_name>"; //enter your name here
   const year = `&entry.401287639_year=${date[0]}`;
   const month = `&entry.401287639_month=${date[1]}`;
   const day = `&entry.401287639_day=${date[2]}`;
