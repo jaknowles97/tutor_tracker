@@ -25,3 +25,5 @@
 7. Find a way to mark a session as completed and hide it from today's sessions?
 
 **KNOWN BUGS**
+
+1. Sheet updates in active sessions are being saved, but disappearing from the front-end. Probably as issue with how state is handled for active session?
